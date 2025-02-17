@@ -1,20 +1,9 @@
 // Variables
 
-// Color system
-
+// Color syste
 $white:    #fff !default;
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
-$gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #adb5bd !default;
-$gray-600: #6c757d !default;
-$gray-700: #495057 !default;
-$gray-800: #343a40 !default;
-$gray-900: #212529 !default;
 $black:    #000 !default;
-
-$blue:    #007bff !default;
+$blue:    #0d6efd !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -24,38 +13,25 @@ $yellow:  #ffc107 !default;
 $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
+$gray:    #6c757d !default;
+$gray-dark:#343a40 !default;
 
-$bright-gray:#58595B !default;
-$light-gray:#939598 !default;
-$bluish-gray:#94a2ad !default;
-$soft-bluish-gray:#e6e7e8 !default;
+$success:#198754 !default;
+$info:#0dcaf0 !default;
+$warning:#ffc107 !default;
+$danger:#dc3545 !default;
+$light:#f8f9fa !default;
+$dark:#212529 !default;
 
-$black:    #000 !default;
-$deep-blue:#1a2940 !default;
-$deep-dark-blue:#19283f !default;
-$cyan-blue:#344E70 !default;
-$deep-cyan-blue:#314d77 !default;
-$bluedark:#0D2338 !default;
-$light-blue:#316aa3 !default;
-$dark-light-blue:#2981d1 !default;
+//DSA theme Color
+$dsa-dark-blue:#0c2740 !default;
+$dsa-medium-blue:#344c71 !default;
+$dsa-cyan-blue:#3471b7 !default;
+$dsa-bright-blue:#357DC0 !default;
+$dsa-yellow:#ffcc32 !default;
+$dsa-red:#d2232a !default;
+$dsa-green:#1d9649 !default;
+$dsa-purple:#636eab !default;
+$dsa-light-grey:#58585B !default;
+$dsa-dark-grey:#58595b !default;
 
-$dsa-dark-blue:#0C2740 !default;
-$dsa-medium-blue:#314D77 !default;
-$dsa-cyan-blue:#3271B7 !default;
-$dsa-bright-blue:#217FD4 !default;
-$dsa-yellow:#FDCA33 !default;
-$dsa-grey:#58585B !default;
-$dsa-black:#333333 !default;
-$dsa-red:#ED1C24 !default;
-$dsa-green:#199649 !default;
-$dsa-violet:#6270B5 !default;
-
-
-//country page
-$gray40:#666666 !default;
-$gray:#6D6E71!default;
-$gray-bg:#F9F9F9!default;
-$font-family-arial:Arial, Helvetica, sans-serif !default;
-$blue-theme:#112E41!default;
-$cyan-blue-dark:#357DC0!default;
-$white-smoke:#F3F3F3!default;
