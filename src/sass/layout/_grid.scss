@@ -26,7 +26,7 @@
   
     // 2-Column Layout
     &-row--two {
-      .flex-col {
+      .flex-col {padding: 1rem;
         @media (min-width: 768px) {
           flex: 0 0 calc(50% - 1%);
           margin-right: 2%;
@@ -42,7 +42,7 @@
   
     // 3-Column Layout
     &-row--three {
-      .flex-col {
+      .flex-col {padding: 1rem;
         @media (min-width: 768px) {
           flex: 0 0 calc(33.33% - 2%);
           margin-right: 3%;
@@ -63,7 +63,7 @@
   
     // 4-Column Layout
     &-row--four {
-      .flex-col {
+      .flex-col {padding: 1rem;
         @media (min-width: 768px) {
           margin-right: 2%;
           flex-grow: 0;
@@ -81,7 +81,7 @@
   
     // Fixed 3-Column Layout
     &-row--fixed-three {
-      .flex-col {
+      .flex-col {padding: 1rem;
         @media (min-width: 768px) {
           flex: 0 0 33.33%;
         }
@@ -90,7 +90,7 @@
   
     // Fixed 4-Column Layout
     &-row--fixed-four {
-      .flex-col {
+      .flex-col {padding: 1rem;
         @media (min-width: 768px) {
           flex: 0 0 25%;
         }
@@ -154,13 +154,17 @@
       &--spacing {
         display: flex;
         justify-content: space-between;
+        .flex-item{padding: 1rem;}
       }
+      .flex-item{padding: 1rem;}
     }
   
     &-spacing {
       display: flex;
       justify-content: space-between;
+      .flex-item{padding: 1rem;}
     }
+
   }  
 
 .justify-center { justify-content: center; }
@@ -171,4 +175,4 @@
 .bg-dsa1{background-color: $dsa-yellow; color: $dark;}
 .bg-dsa2{background-color: $dsa-red; color: $white;}
 .bg-dsa3{background-color: $dsa-green; color: $white;}
-.bg-dsa3{background-color: $dsa-yellow; color: $dark;}
+.bg-dsa4{background-color: $dsa-purple; color: $white;}
