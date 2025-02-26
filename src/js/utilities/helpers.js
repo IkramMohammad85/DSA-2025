@@ -12,7 +12,7 @@ $(function(){
           origin: 'right',
           distance: '300px',
           easing: 'ease-in-out',
-          duration: 800,
+          duration: 700,
         });
   
     } else {

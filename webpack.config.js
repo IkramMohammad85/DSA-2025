@@ -67,7 +67,7 @@ module.exports = {
       directory: path.resolve(__dirname, 'dist'),
     },
     compress: true,
-    port: 8080, // Change the port if needed
+    port: 3000, // Change the port if needed
     open: true, // Automatically opens browser
     hot: true, // Enables Hot Module Replacement (HMR)
   },

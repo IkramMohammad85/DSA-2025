@@ -18,6 +18,7 @@
   },
   "scripts": {
     "dev": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve"
   }
 }

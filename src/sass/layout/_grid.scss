@@ -1,3 +1,4 @@
+@use "../base/variables" as v; 
 .flex-grid {
     display: flex;
     flex-wrap: wrap;
@@ -172,7 +173,7 @@
 .text-center { text-align: center; }
 
 // just for testing purpose
-.bg-dsa1{background-color: $dsa-yellow; color: $dark;}
-.bg-dsa2{background-color: $dsa-red; color: $white;}
-.bg-dsa3{background-color: $dsa-green; color: $white;}
-.bg-dsa4{background-color: $dsa-purple; color: $white;}
+.bg-dsa1{background-color: v.$dsa-yellow; color: v.$dark;}
+.bg-dsa2{background-color: v.$dsa-red; color: v.$white;}
+.bg-dsa3{background-color: v.$dsa-green; color: v.$white;}
+.bg-dsa4{background-color: v.$dsa-purple; color: v.$white;}

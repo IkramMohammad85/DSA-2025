@@ -1,12 +1,12 @@
 // Base ----------------------------------------------------------------
-@import "base/reset";
-@import "base/typography";
-@import "base/variables";
+@use "base/reset";
+@use "base/typography";
+@use "base/variables";
 
 // Components ----------------------------------------------------------------
-@import "components/megamenu";
+@use "components/megamenu";
 
 // layout ----------------------------------------------------------------
-@import "layout/footer";
-@import "layout/grid";
-@import "layout/header";
+@use "layout/footer";
+@use "layout/grid";
+@use "layout/header";
